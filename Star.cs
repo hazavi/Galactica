@@ -8,7 +8,7 @@ namespace Galactica
 {
     internal class Star : SpaceObject
     {
-        public string Type { get; set; }
+        public string StartType { get; set; }
         public double Temperature { get; set; }
         public List<Planet> PlanetList { get; set; }
 

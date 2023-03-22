@@ -16,7 +16,7 @@ namespace Galactica
         public List<Moon> MoonList { get; set; }
 
 
-        public void Distance()
+        public virtual void Distance()
         {
 
         }

@@ -11,15 +11,21 @@ namespace Galactica
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public double Position { get; set; }
-
-        public class x
+        public class Position
         {
+            public int X { get; set; }
+            public int Y { get; set; }
 
-        }
-        public class y
-        {
+            public Position(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
 
+            public override string ToString()
+            {
+                return $"({X}, {Y})";
+            }
         }
 
         enum Startype

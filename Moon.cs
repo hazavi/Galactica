@@ -10,5 +10,9 @@ namespace Galactica
     {
         public string Orbiting { get; set; }
 
+        public override void Distance()
+        {
+
+        }
     }
 }
